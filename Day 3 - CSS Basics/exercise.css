@@ -1,0 +1,29 @@
+.main{
+    border: 150px;
+    align-self: auto;
+    flex: auto;
+    background-color: whitesmoke;
+    
+body{
+    background-color: azure;
+}
+.info{
+    text-align: center;
+}
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header{
+    background-color: gainsboro;
+    align-items: center;
+    text-align: center;
+}
+}
+
+footer{
+    text-align: center;
+    color: gray;
+}
