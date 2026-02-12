@@ -1,0 +1,26 @@
+.box{
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    background-color: wheat;
+}
+.box:nth-child(even){
+    background-color: cadetblue;
+}
+.container :nth-child(odd){
+    background-color: slategray;
+}
+/* Default haru hatau na --- most general used*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
