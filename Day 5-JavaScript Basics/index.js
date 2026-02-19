@@ -56,4 +56,5 @@ const buttonElement = document.querySelector(".btn");
 
 buttonElement.addEventListener("click", function() {
     alert("Button clicked!");
+    console.log("Button was clicked!");
 });
